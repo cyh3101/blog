@@ -1,18 +1,23 @@
 package com.cyh.blog.entity;
 
 public class Permission {
-	private Integer id;
-	private String permissionName;
-	public Integer getId() {
-		return id;
-	}
-	public void setId(Integer id) {
-		this.id = id;
-	}
-	public String getPermissionName() {
-		return permissionName;
-	}
-	public void setPermissionName(String permissionName) {
-		this.permissionName = permissionName == null ? null : permissionName.trim();
-	}
+    private Integer id;
+
+    private String permissionname;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getPermissionname() {
+        return permissionname;
+    }
+
+    public void setPermissionname(String permissionname) {
+        this.permissionname = permissionname == null ? null : permissionname.trim();
+    }
 }
