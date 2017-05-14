@@ -23,7 +23,14 @@ public class User {
 
     private Boolean locked;
 
-    public Integer getId() {
+    @Override
+	public String toString() {
+		return "User [id=" + id + ", username=" + username + ", password=" + password + ", createtime=" + createtime
+				+ ", lasttime=" + lasttime + ", email=" + email + ", sex=" + sex + ", salt=" + salt + ", picture="
+				+ picture + ", locked=" + locked + "]";
+	}
+
+	public Integer getId() {
         return id;
     }
 

@@ -33,4 +33,6 @@ public interface BlogMapper {
     int updateByPrimaryKeyWithBLOBs(Blog record);
 
     int updateByPrimaryKey(Blog record);
+    
+    Blog getBlogByTitle(String title);
 }
