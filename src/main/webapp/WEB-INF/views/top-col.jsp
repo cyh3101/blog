@@ -7,8 +7,8 @@
             </div>
                 <div style="float: right">
                     <ul class="nav navbar-nav">
-                        <li><a href="${pageContext.request.contextPath}/user/login">登录</a></li>
-                        <li><a href="${pageContext.request.contextPath}/user/register">注册</a></li>
+                        <li><a href="${ctx}/user/login">登录</a></li>
+                        <li><a href="${ctx}/user/register">注册</a></li>
                     </ul>
                 </div>
                 <div style="float: right">
@@ -20,18 +20,18 @@
                                     class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="${pageContext.request.contextPath}/user/setting/>">设置个人信息</a>
+                                    <a href="${ctx}/user/setting/>">设置个人信息</a>
                                 </li>
                                 <li><a href="javascript:void(0)">修改密码</a></li>
-                                <li><a href="${pageContext.request.contextPath}/user/logout">登出</a></li>
+                                <li><a href="${ctx}/user/logout">登出</a></li>
                             </ul>
                         </li>
                             <li class="dropdown">
                                 <a href="##" data-toggle="dropdown" class="dropdown-toggle">我的控制<span
                                         class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="${pageContext.request.contextPath}/admin">控制</a></li>
-                                    <li><a href="${pageContext.request.contextPath}/blog/write">写文章</a></li>
+                                    <li><a href="${ctx}/admin">控制</a></li>
+                                    <li><a href="${ctx}/blog/write">写文章</a></li>
                                 </ul>
                             </li>
                     </ul>
